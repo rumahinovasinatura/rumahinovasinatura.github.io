@@ -1,10 +1,3 @@
-/**
-* Template Name: Arsha - v2.2.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -414,7 +407,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #logo .logo-img img {
   width: 75%;
-  -webkit-filter: drop-shadow(12px 12px 30px rgba(0,0,0,0.5));
+  -webkit-filter: drop-shadow(12px 12px 30px rgba(0,0,0,0.75));
 }
 
 @media (min-width: 991px) {
@@ -525,35 +518,6 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Cliens
---------------------------------------------------------------*/
-.cliens {
-  padding: 12px 0;
-  text-align: center;
-}
-
-.cliens img {
-  max-width: 45%;
-  transition: all 0.4s ease-in-out;
-  display: inline-block;
-  padding: 15px 0;
-  -webkit-filter: grayscale(100);
-  filter: grayscale(100);
-}
-
-.cliens img:hover {
-  -webkit-filter: none;
-  filter: none;
-  transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-  .cliens img {
-    max-width: 40%;
-  }
-}
-
-/*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
 
@@ -629,6 +593,10 @@ section {
 @media (max-width: 992px) {
   .vision .section-title:not(:last-child) {
     margin-top: 2em;
+  }
+
+  .vision .content ul li {
+    margin-left: 28px;
   }
 }
 
