@@ -37,7 +37,7 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 0;
   z-index: 9999;
   overflow: hidden;
-  background: #397e37;
+  background: #22991e;
 }
 
 #preloader:before {
@@ -45,7 +45,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #397e37;
+  border: 6px solid #22991e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav a {
   display: block;
   position: relative;
-  color: #397e37;
+  color: #22991e;
   padding: 10px 20px;
   font-weight: 500;
   outline: none;
@@ -380,19 +380,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# logo Section
 --------------------------------------------------------------*/
-#hero {
+#logo {
   width: 100%;
   height: 80vh;
-  background: #397e37;
+  background: #22991e;
 }
 
-#hero .container {
+#logo .container {
   padding-top: 72px;
 }
 
-#hero h1 {
+#logo h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
   font-weight: 700;
@@ -400,105 +400,57 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
 }
 
-#hero h2 {
+#logo h2 {
   color: rgba(255, 255, 255, 0.6);
   margin-bottom: 50px;
   font-size: 24px;
 }
 
-#hero .btn-get-started {
-  font-family: "Jost", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 10px 28px 11px 28px;
-  border-radius: 50px;
-  transition: 0.5s;
-  margin: 10px 0 0 0;
-  color: #fff;
-  background: #66e447;
-}
 
-#hero .btn-get-started:hover {
-  background: #5ad820;
-}
 
-#hero .btn-watch-video {
-  font-size: 16px;
-  display: inline-block;
-  padding: 10px 0 8px 40px;
-  transition: 0.5s;
-  margin: 10px 0 0 25px;
-  color: #fff;
-  position: relative;
-}
-
-#hero .btn-watch-video i {
-  color: #fff;
-  font-size: 32px;
-  position: absolute;
-  left: 0;
-  top: 7px;
-  transition: 0.3s;
-}
-
-#hero .btn-watch-video:hover i {
-  color: #66e447;
-}
-
-#hero .animated {
+#logo .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
 }
 
-#hero .hero-img img {
+#logo .logo-img img {
   width: 75%;
-  -webkit-filter: drop-shadow(12px 12px 25px rgba(0,0,0,0.5))
+  -webkit-filter: drop-shadow(12px 12px 30px rgba(0,0,0,0.5));
 }
 
+@media (min-width: 991px) {
+  #logo .logo-img {
+    margin-bottom: 3em;
+  } 
+  
+}
+
+
 @media (max-width: 991px) {
-  #hero {
+  #logo {
     height: 100vh;
     text-align: center;
   }
-  #hero .animated {
+  #logo .animated {
     -webkit-animation: none;
     animation: none;
   }
-  #hero .hero-img {
+  #logo .logo-img {
     text-align: center;
   }
 
 }
 
 @media (max-width: 768px) {
-  #hero h1 {
+  #logo h1 {
     font-size: 28px;
     line-height: 36px;
   }
-  #hero h2 {
+  #logo h2 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
   }
 
-}
-
-@media (max-width: 575px) {
-
-  #hero .btn-get-started {
-    font-size: 16px;
-    padding: 10px 24px 11px 24px;
-  }
-  #hero .btn-watch-video {
-    font-size: 16px;
-    padding: 10px 0 8px 40px;
-    margin-left: 20px;
-  }
-  #hero .btn-watch-video i {
-    font-size: 32px;
-    top: 7px;
-  }
 }
 
 @-webkit-keyframes up-down {
@@ -543,7 +495,7 @@ section {
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #397e37;
+  color: #22991e;
 }
 
 .section-title h2::before {
@@ -674,9 +626,15 @@ section {
   line-height: 1;
 }
 
-.vision .content p:last-child {
-  margin-bottom: 0;
+@media (max-width: 992px) {
+  .vision .section-title:not(:last-child) {
+    margin-top: 2em;
+  }
 }
+
+/* .vision .content p:last-child {
+  margin-bottom: 0;
+} */
 
 .vision .content ol {
   padding: 0;
@@ -718,7 +676,7 @@ section {
 }
 
 .services .icon-box h4 a {
-  color: #397e37;
+  color: #22991e;
   transition: ease-in-out 0.3s;
 }
 
@@ -860,7 +818,7 @@ section {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 25px;
-  color: #397e37;
+  color: #22991e;
 }
 
 .team .member p {
@@ -903,7 +861,7 @@ section {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #397e37;
+  color: #22991e;
 }
 
 .contact .info p {
@@ -1078,7 +1036,7 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #397e37;
+  color: #22991e;
 }
 
 .breadcrumbs ol {
@@ -1193,7 +1151,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #397e37;
+  background: #22991e;
 }
 
 #footer .footer-newsletter {
@@ -1210,7 +1168,7 @@ section {
   padding: 0;
   line-height: 1;
   font-weight: 600;
-  color: #397e37;
+  color: #22991e;
 }
 
 #footer .footer-newsletter form {
@@ -1265,7 +1223,7 @@ section {
   line-height: 1;
   text-transform: uppercase;
   font-weight: 600;
-  color: #397e37;
+  color: #22991e;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1279,7 +1237,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #397e37;
+  color: #22991e;
   position: relative;
   padding-bottom: 12px;
 }
