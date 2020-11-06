@@ -593,13 +593,13 @@ section {
   line-height: 1;
 }
 
-@media (max-width: 992px) {
+@media only screen and (max-width: 991px) {
   .vision .section-title:not(:last-child) {
     margin-top: 2em;
   }
 
   .vision .content ul li {
-    margin-left: 28px;
+    margin-left: 2em;
   }
 }
 
@@ -773,7 +773,6 @@ section {
 
 .team .member img {
   transition: ease-in-out 0.3s;
-  width: 20%;
   border-radius: 50%;
 }
 
@@ -797,6 +796,19 @@ section {
   font-size: 14px;
 }
 
+@media only screen and (max-width: 991px) {
+  .team .member img {
+    display: block;
+    height: 200px !important;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .team .member h4 {
+    text-align: center;
+  }
+}
 
 /* .team .img-team {
   width: 125px;
