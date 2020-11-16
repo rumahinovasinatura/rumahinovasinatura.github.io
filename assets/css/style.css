@@ -560,6 +560,16 @@ section {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 991px) {
+  .about .section-title {
+    padding-bottom: 0px;
+  }
+
+  .about .content .btn-learn-more {
+    margin-top: 1em !important;
+  }
+}
+
 /*--------------------------------------------------------------
 # Vision
 --------------------------------------------------------------*/
@@ -593,16 +603,6 @@ section {
   line-height: 1;
 }
 
-@media only screen and (max-width: 991px) {
-  .vision .section-title:not(:last-child) {
-    margin-top: 2em;
-  }
-
-  .vision .content ul li {
-    margin-left: 2em;
-  }
-}
-
 /* .vision .content p:last-child {
   margin-bottom: 0;
 } */
@@ -620,6 +620,15 @@ section {
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 991px) {
+  .vision .section-title:not(:last-child) {
+    margin-top: 2em;
+  }
+
+  .vision .content ol li {
+    margin-left: 1em;
+  }
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
